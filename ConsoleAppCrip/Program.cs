@@ -11,8 +11,8 @@ namespace ConsoleAppCrip
 		static void Main(string[] args)
 		{
 
-			string private_pem = RsaKeyConverter.Converter.RsaKeyConverter.XmlToPem(rsa.ToXmlString(true));//private
-			string public_pem = RsaKeyConverter.Converter.RsaKeyConverter.PublicXmlToPem(rsa.ToXmlString(false));//public
+			//string private_pem = RsaKeyConverter.Converter.RsaKeyConverter.XmlToPem(rsa.ToXmlString(true));//private
+			//string public_pem = RsaKeyConverter.Converter.RsaKeyConverter.PublicXmlToPem(rsa.ToXmlString(false));//public
 		}
 
 	}
